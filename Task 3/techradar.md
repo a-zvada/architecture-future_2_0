@@ -15,5 +15,5 @@
 | Techniques | Trial | Lakehouse Architecture | Объединение data lake и warehouse в одной платформе | Замена монолитного DWH на масштабируемую аналитическую платформу |
 | Platforms | Assess | Databricks | Ведущая lakehouse-платформа (Spark, Delta Lake, MLflow, Unity Catalog) | Кандидат на основную платформу для доменных lakehouse |
 | Platforms | Hold | Microsoft SQL Server 2008 | Монолитное DWH, поддержка закончилась в 2019 году | Хранение всех корпоративных данных (сотни ТБ), бизнес-логика |
-| Platforms | Trial | Apache Camel | Устоявшаяся интеграционная шина (ESB-подход) | Интеграции между системами (медицина ↔ финтех ↔ ИИ) |
+| Platforms | Trial | Apache Camel | Интеграционный фреймворк | Интеграции между системами (медицина ↔ финтех ↔ ИИ) |
 | Platforms | Assess | Managed Kafka | Управляемый сервис потоковой обработки событий | Замена/дополнение Camel для event-driven интеграций |
